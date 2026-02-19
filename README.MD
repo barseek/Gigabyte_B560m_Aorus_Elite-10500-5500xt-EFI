@@ -48,6 +48,8 @@ Boot:
   
 
 Efi created with https://github.com/lzhoang2801/OpCore-Simplify (i think it's best tool for automated acpi patch + kext utility)
+For manage serial keys use https://github.com/corpnewt/GenSMBIOS , iMac20,1
+
 OpenCore 1.0.7
 Setup performed from usb3 back panel slot, from samsung t5 usb ssd.
 MacOs install drive created from OpenCoreLegacyPatcher + MountEFI(copy EFI folder)

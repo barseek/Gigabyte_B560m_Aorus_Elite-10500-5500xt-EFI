@@ -62,3 +62,6 @@ Boot:
 * MacOs install drive created from OpenCoreLegacyPatcher + MountEFI(copy EFI folder)
 * Dont use recovery installers, we have weak network stack in recovery, even your isp can provide above 100mbits, your dl speed is about 3-10 mbits with constant validations and stopping download.
 Get mac or vmware macos and make usb install drive there
+
+
+![Desktop](pic/desktop.png)

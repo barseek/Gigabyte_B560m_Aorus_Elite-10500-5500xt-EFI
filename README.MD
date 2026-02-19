@@ -20,6 +20,8 @@ Imessage, AppStore, FaceTime - work
 
 
 Must Have bios settings
+
+```yaml
 Bios: F10
 Settings:
   Platform Power Management: 
@@ -45,12 +47,13 @@ Boot:
   CSM Support: Disabled
   Secure boot:
     Secure boot: disabled
-  
-
+```
+OpenCore 1.0.7
 Efi created with https://github.com/lzhoang2801/OpCore-Simplify (i think it's best tool for automated acpi patch + kext utility)
 For manage serial keys use https://github.com/corpnewt/GenSMBIOS , iMac20,1
+Please reset nvram after ANY CHANGES IN EFI (and before first install too)
 
-OpenCore 1.0.7
+
 Setup performed from usb3 back panel slot, from samsung t5 usb ssd.
 MacOs install drive created from OpenCoreLegacyPatcher + MountEFI(copy EFI folder)
 Dont use recovery installers, we have weak network stack in recovery, even your isp can provide above 100mbits, your dl speed is about 3-10 mbits with constant validations and stopping download.
@@ -59,4 +62,4 @@ Get mac or vmware macos and make usb install drive there
 Im using 2 monitors
 34 Xiaomi gaming curved monitor 3440x1440, 144hz
 18 uperfect 1920x1080 120hz
-all features work.
+all monitor's features work.
